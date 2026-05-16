@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma & Luz</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="img/logo.jpg" alt="Logo de la empresa">
+        <h1>Aroma & Luz</h1>
+        <p>Velas, perfumes y aromas para tu hogar</p>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#reseñas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="inicio-video">
+
+        <video autoplay muted loop playsinline>
+        <source src="img/video_velas.mp4" type="video/mp4">
+        </video>
+
+        <div class="contenido-video">
+            <h2>Bienvenidos</h2>
+            <p>Transformamos aromas en experiencias únicas para tu hogar.</p>
+        </div>
+
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+
+            <div class="productos-container">
+
+                <div class="card">
+                    <img src="img/Vela.jpg" alt="Velas aromáticas">
+                    <h3>Velas Aromáticas</h3>
+                    <p>Velas artesanales con fragancias suaves y relajantes.</p>
+                </div>
+
+                <div class="card">
+                    <img src="img/Perfumina.jpg" alt="Perfuminas textiles">
+                    <h3>Perfuminas</h3>
+                    <p>Perfumes textiles ideales para ropa de cama y ambientes.</p>
+                </div>
+
+                <div class="card">
+                    <img src="img/Bombones.jpg" alt="Bombones aromáticos">
+                    <h3>Bombones Aromáticos</h3>
+                    <p>Pequeñas piezas de cera perfumadas para hornillo, cajones y espacios pequeños.</p>
+                </div>
+
+                <div class="card">
+                    <img src="img/Placa.jpg" alt="Tabletas aromáticas">
+                    <h3>Placas de Cerámica</h3>
+                    <p>Placas aromáticas artesanales para aromatizar tu placard/auto de forma elegante y duradera.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- RESEÑAS -->
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+
+            <div class="reseñas-grid">
+                <div class="reseña">
+                    <p>"Excelente el aroma de las velas y tienen gran duración."</p>
+                </div>
+
+                <div class="reseña">
+                    <p>"Hermosas las placas aromáticas y su presentación es impecable."</p>
+                </div>
+                
+                <div class="reseña">
+                    <p>"Volvería a comprar sin dudas, muy amables en la atención y puntuales en la entrega."</p>
+                </div>
+
+                <div class="reseña">
+                    <p>"El producto llegó en perfectas condiciones, se nota que se tomaron el tiempo de empaquetarlo con el cuidado y los materiales correctos para evitar roturas"</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form action="https://formspree.io/f/TU-CODIGO" method="POST">
+                
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Seguinos en nuestras redes</p>
+        <p>
+            <a href="https://instagram.com" target="_blank">Instagram</a> |
+    
+            <a href="https://facebook.com" target="_blank">Facebook</a> |
+    
+            <a href="https://wa.me/5491112345678" target="_blank">WhatsApp</a>
+        </p>
+        <p>&copy; 2026 Aroma & Luz - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
